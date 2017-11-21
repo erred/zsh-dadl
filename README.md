@@ -1,6 +1,8 @@
 # dadl
 *Dual Arrows, Double line*
 
+![](screenshot.png)
+
 ## Overview
 Much like the [pure](https://github.com/sindresorhus/pure) prompt I used (and what this was based on), it's simple and clean
 
