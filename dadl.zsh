@@ -145,7 +145,7 @@ dadl_prompt() {
     # prompt turns red if the previous command didn't exit with 0
     PROMPT+='%(?.%F{magenta}.%F{red})'
     # add hostname to prompt if not local
-    [[ "$SSH_CONNECTION" != '' ]] && PROMPT += '%m'
+    [[ "$SSH_CONNECTION" != '' ]] && PROMPT+='%m'
     # prompt symbol
     PROMPT+='»%f '
 }
